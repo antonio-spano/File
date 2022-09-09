@@ -1,2 +1,2 @@
 # File
-file class manager in c++
+file manager class in c++
