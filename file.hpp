@@ -49,7 +49,7 @@ void File::Append(T arg1, Types... args)
 {
 	if (!this->open) //needed to not repeat the condition afterwards
 	{
-		if (this->filemode == FileMode::Read)
+		if (this->filemode == Read)
 		{
 			return;
 		}
@@ -67,7 +67,7 @@ void File::Write(T arg1, Types... args)
 {
 	if (!this->open) //needed to not repeat the condition afterwards
 	{
-		if (this->filemode == FileMode::Read)
+		if (this->filemode == Read)
 		{
 			return;
 		}
